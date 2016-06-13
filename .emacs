@@ -2,6 +2,7 @@
 (setq tab-width 4)
 (global-linum-mode 1)
 (setq column-number-mode t)
+(setq org-log-done 'time)
 
 ;; Taken from here:
 ;; http://stackoverflow.com/questions/151945/how-do-i-control-how-emacs-makes-backup-files
@@ -32,4 +33,3 @@
     (backup-buffer)))
 
 (add-hook 'before-save-hook  'force-backup-of-buffer)
-
