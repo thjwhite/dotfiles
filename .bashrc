@@ -9,6 +9,7 @@ fi
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias ls='ls --color=auto'
 
 export EDITOR="emacs -nw"
 
